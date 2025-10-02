@@ -48,7 +48,7 @@ jobs:
                 server_port: 465
                 username: ${{secrets.EMAIL_USERNAME}}  #create secert in repo settings
                 password: ${{secrets.EMAIL_PASSWORD}}  #create secert in repo settings
-                subject: React App Build Successful
+                subject: React App Build Successful    #customize email subject
                 to: ${{secrets.RECEIVER_EMAIL}}
                 from: ${{secrets.EMAIL_USERNAME}}
                 body: "Build job of ${{github.repository}} for Branch: ${{github.ref_name}}  completed successfully!"
