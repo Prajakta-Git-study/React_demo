@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/sonam-niit/React-App-CI-Jenkins.git'
+                git branch: 'main', url: 'https://github.com/Prajakta-Git-study/Nodejs_demo.git'
             }
         }
 
