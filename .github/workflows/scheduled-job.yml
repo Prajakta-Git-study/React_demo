@@ -47,7 +47,7 @@ jobs:
                 server_address: smtp.gmail.com
                 server_port: 465
                 username: ${{secrets.EMAIL_USERNAME}}  #create secert in repo settings
-                password: ${{secrets.EMAIL_PASSWORD}}
+                password: ${{secrets.EMAIL_PASSWORD}}  #create secert in repo settings
                 subject: React App Build Successful
                 to: ${{secrets.RECEIVER_EMAIL}}
                 from: ${{secrets.EMAIL_USERNAME}}
