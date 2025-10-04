@@ -1,4 +1,4 @@
-name: Daily build
+name: Daily build Practice
 on:
   schedule:
     - cron: "*/5 * * * *"
