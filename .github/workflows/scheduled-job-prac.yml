@@ -37,7 +37,7 @@ jobs:
           path: dist
       - name: Send emailnotification
         if: success()
-        uses: betterfor/action-sned-mail@main
+        uses: dawidd6/action-send-mail@v4
         with:
           server_address: smtp.gamil.com
           server_port: 465
@@ -46,5 +46,5 @@ jobs:
           subject: React Practice application build successful
           to: prajaktakarambe2008@gmail.com
           from: ${{secrets.EMAIL_USERNAME}}
-          body: Build job of ${{github.repository}} completed successfully, this is for practice!
+          body: Build job of ${{github.repository}} for branch ${{github.ref_name}} completed successfully, this is for practice!
           
