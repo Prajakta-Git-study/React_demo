@@ -2,10 +2,10 @@ name: Daily build Practice
 on:
   # schedule:
   #   - cron: "*/5 * * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+    workflow_dispatch:
+    push:
+      branches:
+        - main
 
 jobs:
   build:
