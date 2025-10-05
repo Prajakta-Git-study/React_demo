@@ -46,5 +46,5 @@ jobs:
           subject: React Practice application build successful
           to: prajaktakarambe2008@gmail.com
           from: ${{secrets.EMAIL_USERNAME}}
-          body: Build job of ${{github.repository}} completed successfully!
+          body: Build job of ${{github.repository}} completed successfully, this is for practice!
           
